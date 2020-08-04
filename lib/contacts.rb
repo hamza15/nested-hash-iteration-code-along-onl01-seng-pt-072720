@@ -18,7 +18,7 @@ def remove_strawberry(contacts)
   contacts.each do |name, data|
     if name == "Freddy Mercury"
       data.each do |key, value|
-        if value == "favorite_ice_cream_flavors"
+        if key == "favorite_ice_cream_flavors"
           puts "#{value}"
         end
       end
