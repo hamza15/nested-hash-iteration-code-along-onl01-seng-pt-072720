@@ -19,7 +19,7 @@ def remove_strawberry(contacts)
     if name == "Freddy Mercury"
       data.each do |key, value|
         if value == "favorite_ice_cream_flavors"
-          puts "#{key}: #{value}"
+          puts "#{value}"
         end
       end
     end
