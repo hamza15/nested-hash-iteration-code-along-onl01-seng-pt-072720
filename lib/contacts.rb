@@ -19,7 +19,6 @@ def remove_strawberry(contacts)
     if name == "Freddy Mercury"
       data.each do |key, value|
         puts "#{key}: #{value}"
-        end
       end
     end
   end
